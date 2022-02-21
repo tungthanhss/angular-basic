@@ -10,6 +10,9 @@ import {first} from 'rxjs/operators';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  title = 'Angular Basic Auth Login Example';
+  testUsername = 'test';
+  testPassword = 'test';
   loginForm: FormGroup;
   loading = false;
   submitted = false;
